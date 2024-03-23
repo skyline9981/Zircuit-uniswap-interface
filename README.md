@@ -1,10 +1,36 @@
 # Uniswap Labs Interface
 
-[![Unit Tests](https://github.com/Uniswap/interface/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/unit-tests.yaml)
-[![Integration Tests](https://github.com/Uniswap/interface/actions/workflows/integration-tests.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/integration-tests.yaml)
-[![Lint](https://github.com/Uniswap/interface/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/lint.yml)
-[![Release](https://github.com/Uniswap/interface/actions/workflows/release.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/release.yaml)
-[![Crowdin](https://badges.crowdin.net/uniswap-interface/localized.svg)](https://crowdin.com/project/uniswap-interface)
+## Zircuit integration
+
+This fork of the Uniswap Interface is a custom version of the Uniswap Interface that integrates the Zircuit testnet.
+
+## How to use this interface
+
+First of all, you need to have a wallet that supports the Zircuit testnet. We recommend using MetaMask.To add the Zircuit testnet to MetaMask, follow these steps:
+
+1. Open the [Zircuit.com](https://zircuit.com) and click on the "Connect Wallet" button.
+2. Click on the "Add Network" button to add the Zircuit testnet to MetaMask.
+
+After adding the Zircuit testnet to MetaMask, you can use this interface to interact with the Zircuit testnet.
+
+To use this interface, visit [website](https://uniswap.ticton.xyz).
+
+## How to deploy this interface
+
+To deploy this interface, follow these steps:
+
+1. Clone this repository.
+2. Install the dependencies by running `yarn install`.
+3. Before building the interface, you need to run the command `yarn prepare` to generate the necessary files.
+4. Start the interface by running `yarn start`.
+
+## Known issues
+
+- The interface does not support lots of chains. If your wallet is connected to a chain that is not supported by the interface, you will not be able to use the interface. And It will show an error message.
+
+- You may need to add token lists to the interface to see the tokens on the interface. You can create token lists by following the instructions in the [repo](https://github.com/skyline9981/token-list).
+
+## Original information
 
 An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
 
