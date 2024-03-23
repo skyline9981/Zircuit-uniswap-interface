@@ -24,6 +24,25 @@ To deploy this interface, follow these steps:
 3. Before building the interface, you need to run the command `yarn prepare` to generate the necessary files.
 4. Start the interface by running `yarn start`.
 
+## Contract addresses on the Zircuit testnet
+
+```json
+{
+  "v3CoreFactoryAddress": "0xA50c001AB775635a3E4eC343C05B7e408e396393",
+  "multicall2Address": "0xDb204B8b5b51a4df3F62ba3b3E94317c57aeD274",
+  "proxyAdminAddress": "0xc97e3a26b034660b86c662225F13EDcc229d34b6",
+  "tickLensAddress": "0xbDcA61D5a9cF9757Bc8b39E30392651672d10e92",
+  "nftDescriptorLibraryAddressV1_3_0": "0x80c950132fba6b34aCd499663e95F26E563250bf",
+  "nonfungibleTokenPositionDescriptorAddressV1_3_0": "0x79b9341297A04ac1308aD7fAF6acf0cF62754F54",
+  "descriptorProxyAddress": "0x409CAC5b2449A5816c582848d94879e2E0b52D45",
+  "nonfungibleTokenPositionManagerAddress": "0x5bDCC0F5163D384a8f9d4715dB9fD0ca7A8780D1",
+  "v3MigratorAddress": "0x35172840Ae09BBd69cfA51679D8915b2361E3D42",
+  "v3StakerAddress": "0x65E73C1995053c15793Fe8Ade865412f053049Df",
+  "quoterV2Address": "0x43502edF918B4EAf8c2Ed9cA86B076f49F5BC2e0",
+  "swapRouter02": "0x1F7a6C7ed3789685966d857D5a57f22ab268D3D5"
+}
+```
+
 ## Known issues
 
 - The interface does not support lots of chains. If your wallet is connected to a chain that is not supported by the interface, you will not be able to use the interface. And It will show an error message.
